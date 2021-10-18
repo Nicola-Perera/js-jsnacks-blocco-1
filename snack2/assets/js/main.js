@@ -13,11 +13,14 @@ const wordTwo = prompt("scrivi un'altra parola");
 const shorterWord = document.getElementById('shorter');
 const longerWord = document.getElementById('longer');
 
+
 if (wordOne.length <= wordTwo.length) {
-    console.log(wordOne);
-    console.log(wordTwo);
+    
+    shorterWord.innerHTML = wordOne;
+    longerWord.innerHTML = wordTwo;
 }
 else {
-    console.log(wordTwo);
-    console.log(wordOne);
+    
+    shorterWord.innerHTML = wordTwo;
+    longerWord.innerHTML = wordOne;
 }
