@@ -6,3 +6,8 @@
         faccio la somma delle 4 variabili ottenute;
 */   
 
+let number = prompt('inserisci un numero di 4 cifre');
+
+while (number.length != 4) {
+    number = prompt('inserisci un numero di 4 cifre'); 
+}
