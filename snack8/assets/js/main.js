@@ -11,3 +11,12 @@ let number = prompt('inserisci un numero di 4 cifre');
 while (number.length != 4) {
     number = prompt('inserisci un numero di 4 cifre'); 
 }
+console.log(number);
+
+let summ = 0;
+for (let i = 0; i < number.length; i++) {
+    const item = parseInt(number[i]);
+    console.log(item);
+    summ += item;
+    console.log(summ);
+}
