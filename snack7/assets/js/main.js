@@ -7,10 +7,15 @@
         stampo tutti i risultati a schermo;
 */            
 
+
+// ref to powers list in html
+const powersList = document.getElementById('base2powers');
+
 const base = 2;
 let exp = 0;
  while (base ** exp <= 1000) {
      const power = base ** exp;
-     console.log (power);
+    
+     powersList.innerHTML += `<h1 class="cube">${power}</h1>`;
      exp++
  }
