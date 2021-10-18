@@ -9,6 +9,10 @@
 const wordOne = prompt('scrivi una parola');
 const wordTwo = prompt("scrivi un'altra parola");
 
+// ref to shorter and longer titles 
+const shorterWord = document.getElementById('shorter');
+const longerWord = document.getElementById('longer');
+
 if (wordOne.length <= wordTwo.length) {
     console.log(wordOne);
     console.log(wordTwo);
