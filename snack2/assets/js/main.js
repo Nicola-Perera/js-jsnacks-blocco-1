@@ -8,3 +8,12 @@
 // 2 words sent by user
 const wordOne = prompt('scrivi una parola');
 const wordTwo = prompt("scrivi un'altra parola");
+
+if (wordOne.length <= wordTwo.length) {
+    console.log(wordOne);
+    console.log(wordTwo);
+}
+else {
+    console.log(wordTwo);
+    console.log(wordOne);
+}
