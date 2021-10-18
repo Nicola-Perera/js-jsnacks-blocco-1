@@ -7,3 +7,10 @@
         stampo tutti i risultati a schermo;
 */            
 
+const base = 2;
+let exp = 0;
+ while (base ** exp <= 1000) {
+     const power = base ** exp;
+     console.log (power);
+     exp++
+ }
