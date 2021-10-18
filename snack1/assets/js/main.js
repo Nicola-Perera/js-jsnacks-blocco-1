@@ -13,10 +13,15 @@
 const numberOne = parseFloat(prompt('scrivi un numero'));
 const numberTwo = parseFloat(prompt('scrivi un secondo numero'));
 
+// ref to result
+ let result = document.getElementById('result');
+
 // check what's the higgest value and print it
 if (numberOne >= numberTwo) {
-    console.log(numberOne);
+    
+    result.innerHTML = numberOne;
 }
 else if (numberTwo >= numberOne) {
-    console.log(numberTwo);
+
+    result.innerHTML = numberTwo;
 }
