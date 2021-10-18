@@ -2,10 +2,13 @@
 
 let number = -1;
 let summ = 0;
+let average = 0;
 for (let i = 0; i < 10; i++) {
     ++number
     summ += number;
-    console.log(number, summ);
+    average = summ / (number + 1);
+    
+    console.log(number, summ, average);
    
 }
 
