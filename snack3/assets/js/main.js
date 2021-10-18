@@ -7,13 +7,14 @@
             mostro a schermo il risultato della somma;
 */          
 
-let sum = 0;
+const result = document.getElementById('result');
+let summ = 0;
 
 for (let i = 0; i < 10; i++) {
     const userNumber = parseFloat(prompt("inserisci un numero. Inseriti ${i}/10"));
-    sum += userNumber;
+    summ += userNumber;
     console.log(userNumber);
-    console.log(sum);
+    console.log(summ);
 }
-
-console.log(sum);
+result.innerHTML = summ;
+console.log(summ);
