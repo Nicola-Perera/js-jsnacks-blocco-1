@@ -9,3 +9,7 @@
             creo un if per stampare a schermo il numero maggiore,
             in caso l'utente abbia scritto 2 numeri uguali li stampo entrambi;
 */
+
+const numberOne = parseFloat(prompt('scrivi un numero'));
+const numberTwo = parseFloat(prompt('scrivi un secondo numero'));
+
