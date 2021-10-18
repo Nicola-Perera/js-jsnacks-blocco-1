@@ -11,7 +11,7 @@ const result = document.getElementById('result');
 let summ = 0;
 
 for (let i = 0; i < 10; i++) {
-    const userNumber = parseFloat(prompt("inserisci un numero. Inseriti ${i}/10"));
+    const userNumber = parseFloat(prompt(`inserisci un numero. Inseriti ${i}/10`));
     summ += userNumber;
     console.log(userNumber);
     console.log(summ);
